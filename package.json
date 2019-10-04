@@ -1,0 +1,27 @@
+{
+  "name": "bugless-timer",
+  "version": "1.0.0",
+  "description": "A slack bot with a display to show how long bugs aren'r registered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riwersxd/BuglessTimer.git"
+  },
+  "keywords": [
+    "Slack",
+    "Bot",
+    "Bugs",
+    "Display",
+    "Timer",
+    "Counter"
+  ],
+  "author": "riwersxd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riwersxd/BuglessTimer/issues"
+  },
+  "homepage": "https://github.com/riwersxd/BuglessTimer#readme"
+}
