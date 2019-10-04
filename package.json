@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/riwersxd/BuglessTimer/issues"
   },
-  "homepage": "https://github.com/riwersxd/BuglessTimer#readme"
+  "homepage": "https://github.com/riwersxd/BuglessTimer#readme",
+  "dependencies": {
+    "botkit": "^4.5.0"
+  }
 }
