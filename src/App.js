@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import time from './time.js'
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="App-counter">
+        <span>Estamos sem bugs há:</span>
+        <h1>12:08:21:45</h1>
+      </main>
+
+      <section className="App-notifies">
+        <div></div>
+        <div></div>
+      </section>
+
+      <footer className="App-credits">
+        <span>
+          Made with &hearts; by <a href="http://github.com/riwersxd" target="_blank">riwersxd</a>
+        </span>
+      </footer>
     </div>
-  );
+  )
 }
 
 export default App;
