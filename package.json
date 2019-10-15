@@ -1,21 +1,51 @@
 {
   "name": "bugless-timer",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "botkit": "^4.5.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+  "author": {
+    "name": "Guilherme Rios da Cunha",
+    "email": "guilherme.rc.98@gmail.com",
+    "url": "https://riwersxd.github.io"
   },
+  "bugs": "https://github.com/riwersxd/BuglessTimer/issues",
+  "homepage": "https://github.com/riwersxd/BuglessTimer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "stopwatch",
+    "timer",
+    "bugless",
+    "bugs",
+    "bot",
+    "slack",
+    "slack-bot",
+    "jira",
+    "react",
+    "display"
+  ],
+  "description": "A Slack-bot that controls a web-display that show how long no bug has been logged",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/riwersxd/BuglessTimer.git"
+  },
+  "main": "bot.js",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "botkit": "^4.5.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 6.0.0"
   },
   "browserslist": {
     "production": [
@@ -29,7 +59,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "node-sass": "^4.12.0"
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
