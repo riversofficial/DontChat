@@ -1,0 +1,9 @@
+@import '../index.scss';
+
+.notifies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(15% - 36px);
+}

@@ -1,0 +1,9 @@
+@import '../index.scss';
+
+.credits {
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+  transform:translateX(50%);
+  a {color: $--color-primary}
+}
