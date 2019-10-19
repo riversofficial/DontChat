@@ -35,11 +35,10 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "botbuilder-adapter-slack": "^1.0.4",
-    "botkit": "^4.5.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "slackbots": "^1.2.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0"
